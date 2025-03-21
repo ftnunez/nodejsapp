@@ -1,9 +1,9 @@
 job('Aplicacion Node.js Docker DSL') {
     description('Aplicación Node JS Docker DSL para el curso de Jenkins')
     scm {
-        git('https://github.com/fenixdock/nodejsapp.git', 'master') { node ->
-            node / gitConfigName('fenixdock')
-            node / gitConfigEmail('felix.fenix@gmail.com')
+        git('https://github.com/ftnunez/nodejsapp.git', 'master') { node ->
+            node / gitConfigName('ftnunez')
+            node / gitConfigEmail('ftnunez@asf.gob.mx')
         }
     }
     triggers {
